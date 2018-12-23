@@ -11,7 +11,8 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
-
+import psycopg2
+import dj_database_url
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -25,7 +26,7 @@ SECRET_KEY = 'qxw4s_k-_a2h0y3@j3t(jw9^62s(5-&ur-n8^8t0l4$-6kkcc0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 
 
 # Application definition
@@ -75,6 +76,9 @@ WSGI_APPLICATION = 'heroku_2.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -121,5 +125,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MEDIA_ROOT = BASE_DIR + "/media/"
+MEDIA_URL = '/media/'
 
-MEDIA_URL = '/static/media/'
+#
