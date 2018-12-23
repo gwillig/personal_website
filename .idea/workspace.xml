@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/heroku_2/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="360">
+              <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
               <folding>
                 <element signature="e#309#318#0" expanded="true" />
               </folding>
@@ -39,23 +39,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/heroku_2/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="37" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="15" />
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding>
                 <element signature="e#224#233#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../heroku_1/python-getting-started/gettingstarted/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="77" selection-start-line="77" selection-end-line="83" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -142,6 +133,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>5432</find>
+      <find>DEBUG</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,8 +151,8 @@
         <option value="$PROJECT_DIR$/blog/urls.py" />
         <option value="$PROJECT_DIR$/heroku_2/urls.py" />
         <option value="$PROJECT_DIR$/blog/templates/blog/post_list.html" />
-        <option value="$PROJECT_DIR$/heroku_2/settings.py" />
         <option value="$PROJECT_DIR$/heroku_2/wsgi.py" />
+        <option value="$PROJECT_DIR$/heroku_2/settings.py" />
       </list>
     </option>
   </component>
@@ -268,12 +260,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545590450775</updated>
-      <workItem from="1545590484097" duration="11285000" />
+      <workItem from="1545590484097" duration="11640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11285000" />
+    <option name="totallyTimeSpent" value="11640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -392,22 +384,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heroku_2/settings.py">
+    <entry file="file://$PROJECT_DIR$/heroku_2/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="323">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
-            <element signature="e#309#318#0" expanded="true" />
+            <element signature="e#224#233#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heroku_2/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/heroku_2/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="37" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="360">
+          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
           <folding>
-            <element signature="e#224#233#0" expanded="true" />
+            <element signature="e#309#318#0" expanded="true" />
           </folding>
         </state>
       </provider>
