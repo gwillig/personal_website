@@ -14,7 +14,8 @@ from whitenoise.django import DjangoWhiteNoise
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'heroku_2.settings')
 
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "bootcamp.settings")
+
 application = get_wsgi_application()
-
-
 application = DjangoWhiteNoise(application)
