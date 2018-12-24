@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/heroku_2/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="292">
-              <caret line="135" column="68" selection-start-line="135" selection-start-column="68" selection-end-line="135" selection-end-column="68" />
+              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
               <folding>
                 <element signature="e#309#318#0" expanded="true" />
               </folding>
@@ -136,6 +136,7 @@
       <find>DEBUG</find>
       <find>WhiteNoise</find>
       <find>sta</find>
+      <find>GzipManifestStaticFilesStorage</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -262,12 +263,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545590450775</updated>
-      <workItem from="1545590484097" duration="12681000" />
+      <workItem from="1545590484097" duration="12881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12681000" />
+    <option name="totallyTimeSpent" value="12881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -399,7 +400,7 @@
     <entry file="file://$PROJECT_DIR$/heroku_2/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
-          <caret line="135" column="68" selection-start-line="135" selection-start-column="68" selection-end-line="135" selection-end-column="68" />
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
           <folding>
             <element signature="e#309#318#0" expanded="true" />
           </folding>
