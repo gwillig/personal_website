@@ -1,0 +1,13 @@
+.logo{max-width:20%}
+.headline{font-size:xx-large;}
+.container{margin:0px}
+.sub_title{font-size:large;}
+.project_title{font-size:large;}
+.project_link{font-size:medium;}
+.smartphone{width:30%}
+.project_link{display:none}
+.project_title{
+    padding-left:15px;
+    padding-top:25%;
+}
+.social_media{padding-left:40px;}

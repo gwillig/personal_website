@@ -1,0 +1,88 @@
+.profil_img{
+    width:auto;
+    display:none;
+}
+.box{
+    width:150px
+}
+img{
+    max-width:100%;
+}
+.name{
+    padding-left:25%;
+    padding-bottom:50%
+}
+.straight_line {
+    width:100%;
+    line-height:4px;
+    background-color:#ffffff;
+    margin-bottom:10px;
+    margin-left:3%;
+    margin-right:3%;
+    border-radius:25px;
+}
+.fix_row_size{
+    text-align:center;
+    width:200px;
+    padding-right:30px;
+    padding-top:30px;
+    margin-bottom:10px;
+}
+.headline{
+    color:hsl(218, 80%, 50%);
+    font-size:40px;
+    text-transform:uppercase;
+    text-align:right;
+}
+
+.project_description{
+    margin:20px;
+
+}
+.sub_title{
+    color:hsl(218, 80%, 68%);
+    font-size:25px;
+    text-transform:uppercase;
+    text-align:right;
+}
+.project_link{
+    font-size:medium;
+    color:#f8f9fa;
+}
+.project_title{
+    color: hsl(218, 80%, 68%);
+    text-transform:uppercase;
+    font-size:x-large;
+    margin:0;
+}
+
+.logo {
+
+    margin-top:5px;
+    min-width:100px;
+}
+.img_project{
+
+    margin-top:5px;
+    min-width:100px;
+}
+.footer_bottom {
+    margin-bottom:0px;
+    color: hsla(218, 80%, 68%,0);
+
+}
+
+.profil{
+    max-width: 100%;
+    float: right;
+}
+
+.content{
+    background: rgba(44, 76, 118, 0.69);
+    width: 200%;
+    height:1500%;
+    border-radius: 30px;
+}
+.header{
+    background-image:url('https://res.cloudinary.com/gwillig/image/upload/v1546251494/iceberg.png');
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'blog/css/general.css' %}" type = "text/css"/>
+    <link rel="stylesheet" media="screen and (max-width :750px)" href="{% static 'blog/css/max750.css' %}" type = "text/css"/>
+    <link rel="stylesheet" media="screen and (min-width :750px) and (max-width :800px)" href="{% static 'blog/css/750_800.css' %}" type = "text/css"/>
+
+
+    <link rel="icon" href="https://res.cloudinary.com/gwillig/image/upload/v1546251487/logo.ico">
+    <title>Gustav Willig</title>
+</head>
+<body>
+    <div class="container header">
+        <header>
+            <div class="row">
+                <div class="col-md-1 ">
+                    <img id="logo" class="logo" src="https://res.cloudinary.com/gwillig/image/upload/v1546252107/logo.png" alt="logo">
+                </div>
+                <div class="col-md-6 offset-md-5 header_smartphone">
+                    <div class="col align-self-end name ">
+                        <h1 class="headline">Gustav Willig</h1>
+                        <h3 class="sub_title" >Front-End Developer | Engineer</h3>
+                    </div>
+                        <img class ="profil_img" src="https://res.cloudinary.com/gwillig/image/upload/v1546251485/profil_foto.png" alt="profil" >
+                </div>
+            </div>
+        </header>
+            <div id="main" class="row">
+                <div class="col-md-6 offset-md-6 content">
+                    <main>
+                        <div class="row" >
+                            <div class="col-md-3 float-right smartphone">
+                                <img class="img_project" src="https://res.cloudinary.com/gwillig/image/upload/v1546251476/app.png" alt="logo">
+                            </div>
+                            <div class="col-md-6 float-right smartphone_text" >
+                                <p class="project_title">
+                                app
+                                </p>
+                                <p class="project_link">
+                                https://github.com/udacity/data_analyis
+                                </p>
+                            </div>
+                        </div>
+                         <div class="row" >
+                             <div class="col-md-3 float-right smartphone">
+                                 <img class="img_project" src="https://res.cloudinary.com/gwillig/image/upload/v1546251477/data_analysis.png" alt="logo">
+                             </div>
+                             <div class="col-md-6 float-right smartphone_text" >
+                                 <p class="project_title">
+                                 Data analysis
+                                 </p>
+                                 <p class="project_link">
+                                 https://github.com/udacity/data_analyis
+                                 </p>
+                             </div>
+                         </div>
+                         <div class="row">
+                             <div class="col-md-3 float-right smartphone">
+                                 <img class="img_project" src="https://res.cloudinary.com/gwillig/image/upload/v1546251477/html.png" alt="logo">
+                             </div>
+                             <div class="col-md-3 float-right smartphone_text">
+                                 <p class="project_title">
+                                 Website
+                                 </p>
+                                 <p class="project_link">
+                                 https://github.com/udacity/website
+                                 </p>
+                             </div>
+                         </div>
+                    </main>
+                        <footer>
+                            <div class="row justify-content-md-center footer_bottom">
+                                <div class="straight_line">
+                                    <br>
+                                </div>
+                                <div class="col col-md-auto social_media">
+                                    <!--Source:https://www.iconfinder.com/icons/107178/circle_linkedin_icon -->
+                                    <a href="https://github.com/"><img  src="https://res.cloudinary.com/gwillig/image/upload/v1546251478/linkedin.png" alt="linkedin"></a>
+                                </div>
+                                <div class="col col-md-auto social_media">
+                                    <a href="https://github.com/"><img src="https://res.cloudinary.com/gwillig/image/upload/v1546251476/github.png" alt="github"></a>
+                                </div>
+                                <div class="col col-md-auto social_media">
+                                    <a href="https://github.com/"><img src="https://res.cloudinary.com/gwillig/image/upload/v1546251476/contact.svg" alt="contact"></a>
+                                </div>
+                            </div>
+                        </footer>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
