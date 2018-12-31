@@ -13,5 +13,6 @@
 .sub_title{color:hsl(0, 0%, 0%);}
 .profil_img{width:40%;}
 .content{border-radius:0px;}
-.social_media{padding-left:40px;}
+.social_media{padding-left:40px;
+              padding-bottom:30px;}
 .header_smartphone{padding-left:0px;}
