@@ -20,6 +20,7 @@ img{
     margin-left:3%;
     margin-right:3%;
     border-radius:25px;
+    height:1px;
 }
 .fix_row_size{
     text-align:center;
@@ -55,28 +56,25 @@ img{
     font-size:x-large;
     margin:0;
 }
-
 .logo {
 
     margin-top:5px;
     min-width:100px;
 }
 .img_project{
-
     margin-top:5px;
     min-width:100px;
+    max-width:10%;
 }
 .footer_bottom {
     margin-bottom:0px;
     color: hsla(218, 80%, 68%,0);
 
 }
-
 .profil{
     max-width: 100%;
     float: right;
 }
-
 .content{
     background: rgba(44, 76, 118, 0.69);
     width: 200%;
