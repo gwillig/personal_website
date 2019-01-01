@@ -81,6 +81,10 @@ img{
     height:1500%;
     border-radius: 30px;
 }
-.header{
+.header_container{
     background-image:url('https://res.cloudinary.com/gwillig/image/upload/v1546251494/iceberg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }
