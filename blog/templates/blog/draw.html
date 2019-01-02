@@ -185,9 +185,12 @@
              <input type="submit" value="Clear Sketchpad" id="clearbutton" onclick="clearCanvas(canvas,ctx);">
         </div>
         <div class="rightside">
-            <canvas id="sketchpad" height="300" width="400">
+            <canvas id="sketchpad" height="400" width="400">
             </canvas>
         </div>
+        <h1>Take a photo</h1>
+        {#https://stackoverflow.com/questions/8581081/how-to-access-a-mobiles-camera-from-a-web-app#}
+        <input type="file" accept="image/*" capture="camera">
     </div>
 </body>
 </html>
