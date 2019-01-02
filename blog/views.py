@@ -8,5 +8,7 @@ from django.core.mail import send_mail
 logger = logging.getLogger(__name__)
 
 def post_list(request):
-
     return render(request, 'blog/index.html', {})
+
+def draw(request):
+    return render(request, "blog/draw.html", {})

@@ -29,3 +29,9 @@
 .social_media{
     padding-left:40px;
 }
+.header_container{
+    background-image:url('https://res.cloudinary.com/gwillig/image/upload/v1546377871/iceberg_smartphone.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+}
