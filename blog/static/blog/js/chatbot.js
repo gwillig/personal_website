@@ -1,38 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Chat</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    {% load staticfiles %}
-    <link rel="stylesheet" href="{% static 'blog/css/chatbot.css' %}" type = "text/css"/>
-</head>
-<body>
-<div id='bodybox'>
-    <!--https://mail.google.com/mail/u/0/#inbox/KtbxLzFzXTqJdjZCxkRQLpcVMJFFZhTWbV-->
-  <div id='chatborder'>
-    <p id="chatlog7" class="chatlog">&nbsp;</p>
-    <p id="chatlog6" class="chatlog">&nbsp;</p>
-    <p id="chatlog5" class="chatlog">&nbsp;</p>
-    <p id="chatlog4" class="chatlog">&nbsp;</p>
-    <p id="chatlog3" class="chatlog">&nbsp;</p>
-    <p id="chatlog2" class="chatlog">&nbsp;</p>
-    <p id="chatlog1" class="chatlog">&nbsp;</p>
+function open_chat() {
+  document.getElementById("chatwindow").style.display = "block";
+}
 
-    <input list="chatbox_list" type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
-        <datalist id="chatbox_list">
-          <option value="What is your name?">
-          <option value="Do you like cats?">
-          <option value="How are you?">
-          <option value="What are you doing?">
-          <option value="Wie geht es dir?">
-        </datalist>
-
-  </div>
+function close_chat() {
+  document.getElementById("chatwindow").style.display = "none";
+}
 
 
-</div>
-<script>
 
     //links
 //http://eloquentjavascript.net/09_regexp.html
@@ -99,23 +73,14 @@ function newEntry() {
     //sets the chat box to be clear
     document.getElementById("chatbox").value = "";
     //adds the value of the chatbox to the array messages
-    messages.push("<p><b>Me<b>: "+lastUserMessage+"</p>");
+    messages.push("<p><b>Me</b>: "+lastUserMessage+"</p>");
     //Speech(lastUserMessage);  //says what the user typed outloud
     //sets the variable botMessage in response to lastUserMessage
     chatbotResponse();
     //add the chatbot's name and message to the array messages
 
 
-    messages.push(` <div class="row">
-                         <div class="col-md-3 float-right smartphone">
-                             <img class="img_project" src="https://res.cloudinary.com/gwillig/image/upload/v1546270702/ai.png" alt="logo">
-                         </div>
-                         <div class="col-md-9 float-right smartphone_text">
-                             <p class="project_link">
-                                : `+ botMessage+`
-                             </p>
-                         </div>
-                     </div>`);
+    messages.push("<p><b>Chatbot</b>: "+botMessage+"</p>")
     // says the message using the text to speech function written below
     Speech(botMessage);
     //outputs the last few array elements of messages to html
@@ -165,6 +130,4 @@ function placeHolder() {
   document.getElementById("chatbox").placeholder = "";
 }
 
-</script>
-</body>
-</html>
+

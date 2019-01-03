@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     {% load staticfiles %}
+    <script src="{% static 'blog/js/chatbot.js' %}"></script>
     <link rel="stylesheet" href="{% static 'blog/css/general.css' %}" type = "text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" media="screen and (max-width:750px)" href="{% static 'blog/css/max750.css' %}" type = "text/css"/>
     <link rel="stylesheet" media="screen and (min-width:750px) and (max-width:950px)" href="{% static 'blog/css/750_950.css' %}" type = "text/css"/>
-
+    <link rel="stylesheet" href="{% static 'blog/css/chatbot.css' %}" type = "text/css"/>
 
     <link rel="icon" href="https://res.cloudinary.com/gwillig/image/upload/v1546251487/logo.ico">
     <title>Gustav Willig</title>
@@ -27,7 +29,34 @@
                     </div>
                         <img class ="profil_img" src="https://res.cloudinary.com/gwillig/image/upload/v1546251485/profil_foto.png" alt="profil" >
                 </div>
+<!------Chatbot-->
+                <button class="open-button" onclick="open_chat()">Chat</button>
+                <div class="chat-popup" id="chatwindow">
+                 <div>
+                    <button id="close_chat" type="button" class="close" aria-label="Close" onclick="close_chat()">
+                      <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                  <div id='chatborder'>
+                    <p id="chatlog7" class="chatlog">&nbsp;</p>
+                    <p id="chatlog6" class="chatlog">&nbsp;</p>
+                    <p id="chatlog5" class="chatlog">&nbsp;</p>
+                    <p id="chatlog4" class="chatlog">&nbsp;</p>
+                    <p id="chatlog3" class="chatlog">&nbsp;</p>
+                    <p id="chatlog2" class="chatlog">&nbsp;</p>
+                    <p id="chatlog1" class="chatlog">&nbsp;</p>
+                    <input list="chatbox_list" type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
+                        <datalist id="chatbox_list">
+                          <option value="What is your name?">
+                          <option value="Do you like cats?">
+                          <option value="How are you?">
+                          <option value="What are you doing?">
+                          <option value="Wie geht es dir?">
+                        </datalist>
+                  </div>
+                </div>
             </div>
+            <!------>
         </header>
             <div id="main" class="row">
                 <div class="col-md-6 offset-md-6 content">
