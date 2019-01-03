@@ -44,3 +44,10 @@
 .header_smartphone{
     padding-left:0px;
 }
+
+#chat_div{
+  z-index:3;
+  position: fixed;
+  right:0%;
+
+}

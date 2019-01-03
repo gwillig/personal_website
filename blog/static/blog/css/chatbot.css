@@ -33,18 +33,15 @@
   border: none;
   cursor: pointer;
   opacity: 0.8;
-  position: fixed;
-  bottom: 35%;
-  right: 12.5%;
   width: 70px;
   border-radius: 15px 0px 0px 15px;
-  z-index:2
+  z-index: 3;
 }
 
 /* The popup chat - hidden by default */
 .chat-popup {
   display: none;
-  position: fixed;
+
   bottom: 0;
   right: 15px;
   background-color: #4d6f9e;
@@ -96,4 +93,10 @@
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+.chatbutton_div{
+  z-index:3;
+  position: fixed;
+  right:13%;
+  bottom:36%;
 }

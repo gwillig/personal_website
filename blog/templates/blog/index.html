@@ -29,34 +29,8 @@
                     </div>
                         <img class ="profil_img" src="https://res.cloudinary.com/gwillig/image/upload/v1546251485/profil_foto.png" alt="profil" >
                 </div>
-<!------Chatbot-->
-                <button class="open-button" onclick="open_chat()">Chat</button>
-                <div class="chat-popup" id="chatwindow">
-                 <div>
-                    <button id="close_chat" type="button" class="close" aria-label="Close" onclick="close_chat()">
-                      <span aria-hidden="true">×</span>
-                    </button>
-                </div>
-                  <div id='chatborder'>
-                    <p id="chatlog7" class="chatlog">&nbsp;</p>
-                    <p id="chatlog6" class="chatlog">&nbsp;</p>
-                    <p id="chatlog5" class="chatlog">&nbsp;</p>
-                    <p id="chatlog4" class="chatlog">&nbsp;</p>
-                    <p id="chatlog3" class="chatlog">&nbsp;</p>
-                    <p id="chatlog2" class="chatlog">&nbsp;</p>
-                    <p id="chatlog1" class="chatlog">&nbsp;</p>
-                    <input list="chatbox_list" type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
-                        <datalist id="chatbox_list">
-                          <option value="What is your name?">
-                          <option value="Do you like cats?">
-                          <option value="How are you?">
-                          <option value="What are you doing?">
-                          <option value="Wie geht es dir?">
-                        </datalist>
-                  </div>
-                </div>
             </div>
-            <!------>
+
         </header>
             <div id="main" class="row">
                 <div class="col-md-6 offset-md-6 content">
@@ -78,6 +52,35 @@
                              <div class="col-md-3 float-right smartphone">
                                  <img class="img_project" src="https://res.cloudinary.com/gwillig/image/upload/v1546251477/data_analysis.png" alt="logo">
                              </div>
+                              <!------Chatbot-->
+                             <div id="chat_div" class="chatbutton_div float-right">
+                                <button class="open-button" onclick="open_chat()">Chat</button>
+                                <div class="chat-popup" id="chatwindow">
+                                 <div>
+                                    <button id="close_chat" type="button" class="close" aria-label="Close" onclick="close_chat()">
+                                      <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                  <div id='chatborder'>
+                                    <p id="chatlog7" class="chatlog">&nbsp;</p>
+                                    <p id="chatlog6" class="chatlog">&nbsp;</p>
+                                    <p id="chatlog5" class="chatlog">&nbsp;</p>
+                                    <p id="chatlog4" class="chatlog">&nbsp;</p>
+                                    <p id="chatlog3" class="chatlog">&nbsp;</p>
+                                    <p id="chatlog2" class="chatlog">&nbsp;</p>
+                                    <p id="chatlog1" class="chatlog">&nbsp;</p>
+                                    <input list="chatbox_list" type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
+                                        <datalist id="chatbox_list">
+                                          <option value="What is your name?">
+                                          <option value="Do you like cats?">
+                                          <option value="How are you?">
+                                          <option value="What are you doing?">
+                                          <option value="Wie geht es dir?">
+                                        </datalist>
+                                  </div>
+                                </div>
+                            </div>
+                              <!------>
                              <div class="col-md-7 float-right smartphone_text" >
                                  <p class="project_title">
                                  Data analysis
