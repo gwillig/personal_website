@@ -18,7 +18,15 @@
     <p id="chatlog2" class="chatlog">&nbsp;</p>
     <p id="chatlog1" class="chatlog">&nbsp;</p>
 
-    <input type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
+    <input list="chatbox_list" type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
+        <datalist id="chatbox_list">
+          <option value="What is your name?">
+          <option value="Do you like cats">
+          <option value="How are you?">
+          <option value="What are you doing?">
+          <option value="Wie geht es dir?">
+        </datalist>
+
   </div>
 
 
@@ -52,6 +60,15 @@ function chatbotResponse() {
   if (lastUserMessage === 'hi' || lastUserMessage =='hello'|| lastUserMessage =='hey') {
     const hi = ['hi','howdy','hello']
     botMessage = hi[Math.floor(Math.random()*(hi.length))];;
+  }
+  if (lastUserMessage === 'how are you?'|| lastUserMessage =='wie geht es dir?') {
+    botMessage = "I am good"
+  }
+  if (lastUserMessage === 'do you like cats?') {
+    botMessage = "I like cats"
+  }
+  if (lastUserMessage === 'what are you doing?') {
+    botMessage = "I am chilling"
   }
   if (lastUserMessage === 'wie ist dein Name'|| lastUserMessage =='what is your name') {
     botMessage = 'My name is ' + botName;
