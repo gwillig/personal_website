@@ -12,3 +12,6 @@ def post_list(request):
 
 def draw(request):
     return render(request, "blog/draw.html", {})
+
+def chatbot(request):
+    return render(request, "blog/chatbot.html", {})
