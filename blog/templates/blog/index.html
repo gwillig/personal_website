@@ -53,8 +53,8 @@
                                  <img class="img_project" src="https://res.cloudinary.com/gwillig/image/upload/v1546251477/data_analysis.png" alt="logo">
                              </div>
                               <!------Chatbot-->
-                             <div id="chat_div" class="chatbutton_div float-right">
-                                <button class="open-button" onclick="open_chat()">Chat</button>
+                             <div id="chat_div float-right" class="chatbutton_div float-right">
+                                <button id="btn_open" class="open-button" onclick="open_chat()">Chat</button>
                                 <div class="chat-popup" id="chatwindow">
                                  <div>
                                     <button id="close_chat" type="button" class="close" aria-label="Close" onclick="close_chat()">
@@ -76,7 +76,9 @@
                                           <option value="How are you?">
                                           <option value="What are you doing?">
                                           <option value="Wie geht es dir?">
+                                          <option value="Wie ist dein Name?">
                                         </datalist>
+                                    <button id="btn_send" type="button" onclick="newEntry()" class="btn btn-dark">Send</button>
                                   </div>
                                 </div>
                             </div>

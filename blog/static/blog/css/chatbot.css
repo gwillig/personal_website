@@ -96,7 +96,7 @@
 }
 .chatbutton_div{
   z-index:3;
-  position: fixed;
-  right:13%;
+  position: absolute;
+  right:0%;
   bottom:36%;
 }

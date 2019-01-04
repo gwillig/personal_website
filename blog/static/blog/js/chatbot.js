@@ -1,9 +1,12 @@
 function open_chat() {
   document.getElementById("chatwindow").style.display = "block";
+  $('#btn_open').hide()
+
 }
 
 function close_chat() {
   document.getElementById("chatwindow").style.display = "none";
+    $('#btn_open').show()
 }
 
 
@@ -32,6 +35,7 @@ function chatbotResponse() {
   talking = true;
   botMessage = "I don't understand"; //the default message
   lastUserMessage = lastUserMessage.toLocaleLowerCase()
+  send_mail(lastUserMessage)
   if (lastUserMessage === 'hi' || lastUserMessage =='hello'|| lastUserMessage =='hey') {
     const hi = ['hi','howdy','hello']
     botMessage = hi[Math.floor(Math.random()*(hi.length))];;
@@ -131,3 +135,17 @@ function placeHolder() {
 }
 
 
+function send_mail(message){
+
+  $.ajax({
+    url: '/ajax_chat',
+    data: { text: message },
+    dataType: 'application/json',
+    complete: function (data) {
+      alert(data)
+    },
+    success: function (data) {
+      alert(data)
+    }
+  })
+}
