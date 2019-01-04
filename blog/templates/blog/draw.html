@@ -34,13 +34,13 @@
                     <p>
                       <label >Select your photo:
                       <input  onchange="readURL(this)" id="imgInp" type="file" accept="image/*" capture="camera" name="file"></label>
-                        <img id="blah" src="#" alt="your image" />
+                        <img id="img_review" src="#" alt="your image" />
                     </p>
                     <img id="uploaded">
                     <div id="results"></div>
                 </fieldset>
                 <div id="sumit_div" >
-                    <input id="submit_btn" type="submit" value="Submit" />
+                    <input id="submit_btn" type="submit" value="Submit" onclick="predication()" />
                 </div>
             </form>
         </div>
