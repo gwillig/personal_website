@@ -44,3 +44,6 @@ def chat_mail(request):
     server.quit()
 
     return HttpResponse("e_mail_send")
+
+def response_chat(request="test"):
+    return HttpResponse("<script>response_chat();</script>")

@@ -141,11 +141,15 @@ function send_mail(message){
     url: '/ajax_chat',
     data: { text: message },
     dataType: 'application/json',
-    success: function (data) {
+    success: function () {
       console.log("successful_chat_committed")
     },
     error:function(){
       console.log("error_committed_chat")
     },
   })
+}
+
+function response_chat(){
+  alert("Hallo")
 }

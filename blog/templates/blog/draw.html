@@ -177,6 +177,7 @@
 </head>
 
 <body onload="init()">
+    <h1>Predict mood basied on photo and drawing</h1>
     <div id="sketchpadapp">
         <div class="leftside">
              Touchscreen and mouse support HTML5 canvas sketchpad.<br/><br/>
@@ -188,9 +189,47 @@
             <canvas id="sketchpad" height="400" width="400">
             </canvas>
         </div>
-        <h1>Predict drawing image</h1>
-        {#https://stackoverflow.com/questions/8581081/how-to-access-a-mobiles-camera-from-a-web-app#}
-        <input type="file" accept="image/*" capture="camera">
     </div>
+
+<div>
+    <form action="" method="post" enctype="multipart/form-data" onsubmit="AJAXSubmit(this); return false;">
+  <fieldset>
+
+    <p>
+      <input type="text" name="upload_preset" value="portfolio" style="display:none">
+    </p>
+    <p>
+      <label >Select your photo:
+      <input type="file" accept="image/*" capture="camera" name="file"></label>
+    </p>
+
+    <p>
+      <input type="submit" value="Submit" />
+    </p>
+    <img id="uploaded">
+    <div id="results"></div>
+  </fieldset>
+        <!--Script for uploading the file to cloudinary -->
+        <script>
+
+            window.ajaxSuccess = function () {
+            response = JSON.parse(this.responseText);
+          console.log("ajaxSuccess", typeof this.responseText);
+          document.getElementById('uploaded').setAttribute("src", response["secure_url"]);
+          document.getElementById('results').innerText = this.responseText;
+        }
+
+        window.AJAXSubmit = function (formElement) {
+          console.log("starting AJAXSubmit");
+          if (!formElement.action) { return; }
+          var xhr = new XMLHttpRequest();
+          xhr.open("post", "https://api.cloudinary.com/v1_1/gwillig/image/upload");
+          xhr.send(new FormData(formElement));
+        }
+        </script>
+</form>
+
+
+</div>
 </body>
 </html>
