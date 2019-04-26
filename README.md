@@ -1,10 +1,9 @@
 # Udacity-portfolio-project
 This repository is portfolio project represented for Udacity's Front-End Web developer nanodegree
 
-# How to use it
+## How to use it
 * Clone/download it
 * open index.html
-
 
 ## License for the images
 For the following images applies the Pexels License:
@@ -29,11 +28,10 @@ That means:
  Source: 
  * https://unsplash.com/license
 
-
-# Note
+## Note
 A live version can be fount under http://gustavwillig.herokuapp.com/
 
-# License
+## License
 The MIT License (MIT)
 
 Copyright (c) 2019 Gustav Willig
