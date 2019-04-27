@@ -2,8 +2,8 @@
 This repository is portfolio project represented for Udacity's Front-End Web developer nanodegree
 
 ## How to use it
-* Clone/download it
-* open index.html
+1. Clone or download the project
+2. Open the index.html file in a browser 
 
 ## License for the images
 For the following images applies the Pexels License:
