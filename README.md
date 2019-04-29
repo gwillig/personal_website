@@ -5,6 +5,10 @@ This repository is portfolio project represented for Udacity's Front-End Web dev
 1. Clone or download the project
 2. Open the index.html file in a browser 
 
+## Technologies
+* CSS
+* HTML
+* JS
 ## License for the images
 For the following images applies the Pexels License:
 * https://www.pexels.com/de-de/foto/app-apps-design-elektrik-147413/  &nbsp;
