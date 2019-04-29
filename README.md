@@ -1,7 +1,7 @@
 # Udacity-portfolio-project
 This repository is portfolio project represented for Udacity's Front-End Web developer nanodegree
 
-## How to use it
+## How to run it
 1. Clone or download the project
 2. Open the index.html file in a browser 
 
