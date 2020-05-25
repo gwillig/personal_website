@@ -26,7 +26,7 @@ def chat_mail(request):
     conversation = request.GET["text"]
     fromaddr = "christowillig@gmail.com"
     toaddr = "gustavwillig@gmail.com"
-    password = "maguvix17"
+    password = "example"
     msg = MIMEMultipart()
     msg['From'] = fromaddr
     msg['To'] = toaddr
