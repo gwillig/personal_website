@@ -2,8 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60e69c2-4bd0-4d54-a208-5dd358df43dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/portfolio/contact/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/contact/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/cv/templates/cv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/cv/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/cv/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/heroku_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/heroku_2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.~lock.website_portfolio.pptx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile.windows" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/750_950.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/chatbot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/draw.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/general.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/max750.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/js/chatbot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/blog/js/draw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/chatbot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/draw.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heroku_2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heroku_2/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heroku_2/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heroku_2/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Foto_Gustav_Willig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/static/personal/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/static/personal/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/static/personal/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/static/personal/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/static/personal/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/static/personal/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/static/personal/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/static/personal/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/static/personal/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/static/personal/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/static/personal/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/static/personal/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/static/personal/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/static/personal/img/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/static/personal/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/static/personal/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/static/personal/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/templates/personal/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/templates/personal/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/templates/personal/includes/htmlsnippet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +98,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -84,23 +151,29 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/portfolio/contact" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyDebuggerOptionsProvider">
     <option name="mySaveCallSignatures" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\gustav\Dropbox\Master\Javascript\heroku_2\blog\templates\blog" />
-      <recent name="C:\Users\gustav\Dropbox\Master\Javascript\heroku_2\blog" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/portfolio/contact" />
+      <recent name="$PROJECT_DIR$/portfolio/cv" />
+      <recent name="$PROJECT_DIR$/portfolio/homepage" />
       <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/portfolio/contact/templates" />
+      <recent name="$PROJECT_DIR$/portfolio/cv/templates" />
+      <recent name="$PROJECT_DIR$/portfolio/homepage/templates" />
+      <recent name="C:\Users\gustav\Dropbox\Master\Javascript\heroku_2\blog\templates\blog" />
+      <recent name="C:\Users\gustav\Dropbox\Master\Javascript\heroku_2\blog" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Unnamed">
@@ -207,15 +280,39 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589312674543">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590564147521">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1589312674543" />
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590564147521" />
+    <state x="689" y="354" width="599" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590565555957">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="689" y="354" width="599" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590565555957" />
     <state x="784" y="317" width="424" height="484" key="FileChooserDialogImpl" timestamp="1589787896336">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="2343" y="373" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.76.1920.1080@1600.76.1920.1080" timestamp="1589099962552" />
     <state x="784" y="317" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1589787896336" />
+    <state width="970" height="339" key="GridCell.Tab.0.bottom" timestamp="1590565371441">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="970" height="339" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590565371441" />
+    <state width="970" height="339" key="GridCell.Tab.0.center" timestamp="1590565371441">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="970" height="339" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590565371441" />
+    <state width="970" height="339" key="GridCell.Tab.0.left" timestamp="1590565371441">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="970" height="339" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590565371441" />
+    <state width="970" height="339" key="GridCell.Tab.0.right" timestamp="1590565371441">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="970" height="339" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590565371441" />
+    <state x="482" y="187" key="SettingsEditor" timestamp="1590564090692">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590564090692" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

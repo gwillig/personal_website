@@ -1,4 +1,0 @@
-django
-gunicorn
-django-heroku
-whitenoise==3.3.1
