@@ -24,8 +24,8 @@
 
     .curtain   .photo_gustav {
 
-      height: 500px;
-      width: 400px;
+      height: 400px;
+      width: 300px;
       margin-left: 150px;
       margin-top: 20px;
       background: url('{% static "photo_gustav.jpg" %}');
@@ -45,6 +45,7 @@
     .curtain ul{
         list-style: none;
         font-size: 50px;
+        margin-left: 20px;
         text-transform: uppercase;
     }
 
@@ -67,6 +68,15 @@
         margin-left: 40px;
 
     }
+
+    .social_media{
+        margin-left: 60px;
+    }
+
+    .social_media img{
+        margin: 10px;
+    }
+
     .right_row{
         float: right;
         width: 70%;
@@ -84,7 +94,7 @@
 
 
 <!--<body style="background-image: url('{% static 'background_medium_1920_2399.jpg' %}">-->
-<!--            <div class="col" style="background-image: url('{% static 'background_small_640_799.jpg' %}">-->
+<!--            <div class="col" style="background-image: url("{% static 'background_small_640_799.jpg' %}">-->
 <body >
 <div class="container">
     <div class="curtain">
@@ -100,6 +110,14 @@
             <li>My CV</li>
             <li>Contact</li>
         </ul>
+        <div class="social_media">
+            <img src="{% static 'mail.png' %}">
+            <img src="{% static 'linkedin.png' %}">
+            <img src="{% static 'mail.png' %}">
+            <img src="{% static 'bot.png' %}">
+        </div>
+    </div>
+    <div>
 
     </div>
     <div class="left_row">

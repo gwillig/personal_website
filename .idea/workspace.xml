@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60e69c2-4bd0-4d54-a208-5dd358df43dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/bot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/photo_gustav.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/homepage/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/homepage/templates/home.html" afterDir="false" />
     </list>
