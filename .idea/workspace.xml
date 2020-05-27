@@ -2,75 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60e69c2-4bd0-4d54-a208-5dd358df43dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio/contact/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/contact/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/cv/templates/cv.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/cv/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/cv/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/heroku_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/heroku_2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/bot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/photo_gustav.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile.windows" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/750_950.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/chatbot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/draw.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/general.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/css/max750.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/js/chatbot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/js/draw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/chatbot.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/draw.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku_2/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku_2/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku_2/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku_2/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Foto_Gustav_Willig.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/static/personal/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/static/personal/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/static/personal/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/static/personal/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/static/personal/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/static/personal/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/static/personal/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/static/personal/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/static/personal/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/static/personal/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/static/personal/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/static/personal/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/static/personal/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/static/personal/img/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/static/personal/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/static/personal/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/static/personal/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/templates/personal/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/templates/personal/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/templates/personal/includes/htmlsnippet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/homepage/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/homepage/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +89,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/portfolio/contact" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/portfolio/homepage/static" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -162,18 +100,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/portfolio/homepage/static" />
       <recent name="$PROJECT_DIR$/portfolio/contact" />
       <recent name="$PROJECT_DIR$/portfolio/cv" />
       <recent name="$PROJECT_DIR$/portfolio/homepage" />
       <recent name="$PROJECT_DIR$/media" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/portfolio/homepage/static" />
       <recent name="$PROJECT_DIR$/portfolio/contact/templates" />
       <recent name="$PROJECT_DIR$/portfolio/cv/templates" />
       <recent name="$PROJECT_DIR$/portfolio/homepage/templates" />
       <recent name="C:\Users\gustav\Dropbox\Master\Javascript\heroku_2\blog\templates\blog" />
-      <recent name="C:\Users\gustav\Dropbox\Master\Javascript\heroku_2\blog" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Unnamed">
@@ -313,6 +251,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590564090692" />
+    <state x="765" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590577339385">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="765" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590577339385" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

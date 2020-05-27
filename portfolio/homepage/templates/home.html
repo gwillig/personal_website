@@ -3,8 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-</head>
-<body>
+ </head>
+{% load static %}
+<style>
+    .container {
+        height:100vh;
+        background:black;
+        color:#fff;
 
+    }
+
+    .curtain {
+        background: linear-gradient(90deg, rgb(0, 0, 0) 30%, rgb(0, 0, 0) 65%, rgba(110, 110, 110, 0) 100%);
+        overflow: visible;
+        height: 100vh;
+        width: 100vh;
+        position: absolute;
+    }
+
+
+    .curtain   .photo_gustav {
+
+      height: 500px;
+      width: 400px;
+      margin-left: 150px;
+      margin-top: 20px;
+      background: url('{% static "photo_gustav.jpg" %}');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: center center;
+      box-shadow: 0 0 70px 70px black inset;
+    }
+
+    .curtain .title{
+        font-size:75px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+
+    }
+
+    .curtain ul{
+        list-style: none;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+
+    .curtain ul li{
+        margin-bottom:10px;
+    }
+
+    .left_row{
+        float: left;
+        width: 30%;
+        height:100vh;
+
+
+    }
+
+    .line{
+        border: white;
+        border-style: solid;
+        width: 750px;
+        margin-left: 40px;
+
+    }
+    .right_row{
+        float: right;
+        width: 70%;
+        height:100vh;
+
+        background: url('{% static "background_medium_1920_2399.jpg" %}');
+        background-repeat: no-repeat;
+        background-size: 100% 130%;
+        background-position: center center;
+    }
+
+
+</style>
+
+
+
+<!--<body style="background-image: url('{% static 'background_medium_1920_2399.jpg' %}">-->
+<!--            <div class="col" style="background-image: url('{% static 'background_small_640_799.jpg' %}">-->
+<body >
+<div class="container">
+    <div class="curtain">
+        <div class="photo_gustav"></div>
+        <p class="title">
+            Hi,<br>
+            I'm Gustav<br>
+            a Full-Stack Developer
+        </p>
+        <div class="line"></div>
+        <ul>
+            <li>Skills</li>
+            <li>My CV</li>
+            <li>Contact</li>
+        </ul>
+
+    </div>
+    <div class="left_row">
+        a
+    </div>
+    <div class="right_row" >
+        b
+    </div>
+</div>
 </body>
 </html>
