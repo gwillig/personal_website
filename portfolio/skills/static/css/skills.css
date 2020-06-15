@@ -1,3 +1,6 @@
 .right_row{
     background: linear-gradient(#eb01a200, #000000de), url('/static/background_medium_1920_2399.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+    background-position: center center;
 }

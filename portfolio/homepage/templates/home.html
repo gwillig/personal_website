@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ section.title }}</title>
  </head>
 {% load static %}
 <link rel="stylesheet" type="text/css" href="{%static 'css/home.css' %}">
+
 
 
 
@@ -14,7 +16,9 @@
 <body >
 <div class="container">
     <div class="curtain">
-        <div class="photo_gustav"></div>
+        <div class="photo_gustav">
+
+        </div>
         <p class="title">
             Hi,<br>
             I'm Gustav<br>
@@ -23,8 +27,6 @@
         <div class="line"></div>
         <ul class="side_navigation">
             <li><a href="/skills">Skills</a></li>
-             {% block content %}
-            {% endblock %}
             <li><a href="/projects">Projects</a></li>
             <li><a href="/cv">CV</a></li>
             <li><a href="/contact">Contact</a></li>
@@ -42,14 +44,15 @@
             <img style="visibility:hidden" src="{% static 'bot.png' %}">
         </div>
     </div>
-    <div>
-
-    </div>
     <div class="left_row">
         a
     </div>
     <div class="right_row" >
-        b
+        <div class="section_content">
+            {% block content %}
+            {% endblock %}
+        </div>
+
     </div>
 </div>
 </body>
