@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60e69c2-4bd0-4d54-a208-5dd358df43dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/manage.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.~lock.website_portfolio.pptx#" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/homepage/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/homepage/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/portfolio/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,40 +41,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>5432</find>
-      <find>DEBUG</find>
-      <find>WhiteNoise</find>
-      <find>sta</find>
-      <find>GzipManifestStaticFilesStorage</find>
-      <find>DATABASES</find>
-      <find>whitenoise</find>
-      <find>STATIC_URL</find>
-      <find>Admins</find>
-      <find>LOGGING</find>
-      <find>ice</find>
-      <find>&lt;/body&gt;</find>
-      <find>&lt;body&gt;</find>
-      <find>contact</find>
-      <find>'</find>
-      <find>straight_line</find>
-      <find>img_project</find>
-      <find>AI</find>
-      <find>chatborder</find>
-      <find>project_link</find>
-      <find>openForm</find>
-      <find>myForm</find>
-      <find>chat-popup</find>
-      <find>chatwindow</find>
-      <find>take</find>
-      <find>send</find>
-      <find>characterCode</find>
-      <find>upload</find>
-      <find>newEntry()</find>
-      <find>bas</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,8 +53,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/portfolio/homepage/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/portfolio/manage.py" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -109,28 +80,7 @@
       <recent name="C:\Users\gustav\Dropbox\Master\Javascript\heroku_2\blog\templates\blog" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Unnamed">
-    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="heroku_2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.manage">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="heroku_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,7 +127,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.manage" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -213,35 +163,35 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590564147521">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593000515194">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590564147521" />
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593000515194" />
     <state x="689" y="354" width="599" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590565555957">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="689" y="354" width="599" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590565555957" />
-    <state x="784" y="317" width="424" height="484" key="FileChooserDialogImpl" timestamp="1589787896336">
+    <state x="784" y="317" width="424" height="484" key="FileChooserDialogImpl" timestamp="1593000501158">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="2343" y="373" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.76.1920.1080@1600.76.1920.1080" timestamp="1589099962552" />
-    <state x="784" y="317" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1589787896336" />
-    <state width="970" height="339" key="GridCell.Tab.0.bottom" timestamp="1590565371441">
+    <state x="784" y="317" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593000501158" />
+    <state width="967" height="339" key="GridCell.Tab.0.bottom" timestamp="1593000530177">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="970" height="339" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590565371441" />
-    <state width="970" height="339" key="GridCell.Tab.0.center" timestamp="1590565371441">
+    <state width="967" height="339" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593000530177" />
+    <state width="967" height="339" key="GridCell.Tab.0.center" timestamp="1593000530177">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="970" height="339" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590565371441" />
-    <state width="970" height="339" key="GridCell.Tab.0.left" timestamp="1590565371441">
+    <state width="967" height="339" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593000530177" />
+    <state width="967" height="339" key="GridCell.Tab.0.left" timestamp="1593000530177">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="970" height="339" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590565371441" />
-    <state width="970" height="339" key="GridCell.Tab.0.right" timestamp="1590565371441">
+    <state width="967" height="339" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593000530177" />
+    <state width="967" height="339" key="GridCell.Tab.0.right" timestamp="1593000530177">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="970" height="339" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590565371441" />
+    <state width="967" height="339" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593000530177" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1590564090692">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -250,6 +200,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="765" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590577339385" />
+    <state x="683" y="117" width="620" height="870" key="find.popup" timestamp="1590912502745">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="683" y="117" width="620" height="870" key="find.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590912502745" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
