@@ -5,95 +5,7 @@
     <title>Home</title>
  </head>
 {% load static %}
-<style>
-    .container {
-        height:100vh;
-        background:black;
-        color:#fff;
-
-    }
-
-    .curtain {
-        background: linear-gradient(90deg, rgb(0, 0, 0) 30%, rgb(0, 0, 0) 65%, rgba(110, 110, 110, 0) 100%);
-        overflow: visible;
-        height: 100vh;
-        width: 100vh;
-        position: absolute;
-    }
-
-
-    .curtain   .photo_gustav {
-
-      height: 400px;
-      width: 300px;
-      margin-left: 150px;
-      margin-top: 20px;
-      background: url('{% static "photo_gustav.jpg" %}');
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      background-position: center center;
-      box-shadow: 0 0 70px 70px black inset;
-    }
-
-    .curtain .title{
-        font-size:50px;
-        margin-left: 60px;
-        margin-bottom: 20px;
-
-    }
-
-    .curtain ul{
-        list-style: none;
-        font-size: 40px;
-        margin-left: 20px;
-        text-transform: uppercase;
-    }
-
-    .curtain ul li{
-        margin-bottom:10px;
-    }
-
-    .left_row{
-        float: left;
-        width: 30%;
-        height:100vh;
-
-
-    }
-
-    .line{
-        border: white;
-        border-style: solid;
-        width: 550px;
-        margin-left: 40px;
-
-    }
-
-    .social_media{
-        margin-left: 60px;
-    }
-
-    .social_media a{
-        color:transparent;
-    }
-
-    .social_media img{
-        margin: 10px;
-    }
-
-    .right_row{
-        float: right;
-        width: 70%;
-        height:100vh;
-
-        background: url('{% static "background_medium_1920_2399.jpg" %}');
-        background-repeat: no-repeat;
-        background-size: 100% 130%;
-        background-position: center center;
-    }
-
-
-</style>
+<link rel="stylesheet" type="text/css" href="{%static 'css/home.css' %}">
 
 
 
@@ -109,7 +21,7 @@
             an AI Full-Stack Developer
         </p>
         <div class="line"></div>
-        <ul class="bullet_points">
+        <ul class="side_navigation">
             <li>Skills</li>
             <li>My CV</li>
             <li>Contact</li>
