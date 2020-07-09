@@ -14,11 +14,19 @@
     position: absolute;
 }
 
+.side_navigation li a:hover{
+    cursor:pointer;
+    color:#273b42
+}
+
 .side_navigation{
     cursor:pointer;
     width: 400px;
 }
-
+.side_navigation li a{
+    color: #fff;
+    text-decoration: none;
+}
 .curtain   .photo_gustav {
 
   height: 400px;

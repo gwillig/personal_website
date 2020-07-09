@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>{{ section.title }}</title>
  </head>
 {% load static %}
 <link rel="stylesheet" type="text/css" href="{%static 'css/home.css' %}">
@@ -22,9 +22,12 @@
         </p>
         <div class="line"></div>
         <ul class="side_navigation">
-            <li>Skills</li>
-            <li>My CV</li>
-            <li>Contact</li>
+            <li><a href="/skills">Skills</a></li>
+             {% block content %}
+            {% endblock %}
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/cv">CV</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
         <div class="social_media">
             <a href= "mailto:gustavwillig@gmail.com">
