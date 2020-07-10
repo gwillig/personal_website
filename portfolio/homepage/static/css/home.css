@@ -1,22 +1,24 @@
 
+
 .container {
-    height:100vh;
+    height:100%;
     background:black;
     color:#fff;
+
 
 }
 
 .curtain {
     background: linear-gradient(90deg, rgb(0, 0, 0) 30%, rgb(0, 0, 0) 65%, rgba(110, 110, 110, 0) 100%);
     overflow: visible;
-    height: 100vh;
+    height:100%;
     width: 100vh;
     position: absolute;
 }
 
 .side_navigation li a:hover{
     cursor:pointer;
-    color:#273b42
+    filter: brightness(30%);
 }
 
 .side_navigation{
@@ -41,7 +43,7 @@
 }
 
 .curtain .title{
-    font-size:50px;
+    font-size:40px;
     margin-left: 60px;
     margin-bottom: 20px;
 
@@ -49,7 +51,7 @@
 
 .curtain ul{
     list-style: none;
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 20px;
     text-transform: uppercase;
 }
@@ -84,6 +86,10 @@
 
 .social_media img{
     margin: 10px;
+}
+
+.social_media img:hover{
+    filter: brightness(30%);
 }
 
 .right_row{
