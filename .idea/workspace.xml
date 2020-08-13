@@ -2,12 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60e69c2-4bd0-4d54-a208-5dd358df43dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/css/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/css/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/css/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/css/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/css/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/css/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/css/style.blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/background_bavaria_desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/background_bavaria_mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/bar_chart_skills_desktop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/bar_chart_skills_mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/pie_chart_60.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/pie_chart_80.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/pie_chart_90.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/js/front.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/js/jquery/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/js/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/js/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/js/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/js/jquery/jquery.slim.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/homepage/static/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/background_large_2400_2999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/background_medium_1920_2399.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/background_original_3106_3882.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/background_small_640_799.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/bot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/css/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/photo_gustav.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/homepage/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/homepage/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/portfolio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/skills/static/css/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/skills/static/css/skills.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/skills/templates/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/skills/templates/skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/portfolio/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website_portfolio.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/website_portfolio.pptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +82,11 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="heroku_2/invalid/Django" />
+    </ignored-facets>
+  </component>
   <component name="ProjectId" id="1bgUQEOd01PD2cZWIOyEoN4ozIp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -57,7 +98,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/portfolio/skills/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/portfolio/homepage/static/css/bootstrap/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -67,19 +108,19 @@
     <option name="mySaveCallSignatures" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\Website\portfolio\homepage\static\css\bootstrap\js" />
+      <recent name="C:\projects\Website\portfolio\homepage\static\css" />
+      <recent name="C:\projects\Website\portfolio\homepage\static\js" />
+      <recent name="C:\projects\Website\portfolio\skills\static" />
+      <recent name="C:\projects\Website\portfolio\skills" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\Website\portfolio\homepage\static\css\bootstrap\js\jquery" />
+      <recent name="C:\projects\Website\portfolio\homepage\static" />
       <recent name="C:\projects\Website\portfolio\skills\static\css" />
       <recent name="$PROJECT_DIR$/portfolio/homepage/static" />
       <recent name="$PROJECT_DIR$/portfolio/contact/templates" />
-      <recent name="$PROJECT_DIR$/portfolio/cv/templates" />
-      <recent name="$PROJECT_DIR$/portfolio/homepage/templates" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\Website\portfolio\skills\static" />
-      <recent name="C:\projects\Website\portfolio\skills" />
-      <recent name="$PROJECT_DIR$/portfolio/homepage/static" />
-      <recent name="$PROJECT_DIR$/portfolio/contact" />
-      <recent name="$PROJECT_DIR$/portfolio/cv" />
     </key>
   </component>
   <component name="RunManager" selected="Python.manage">
@@ -128,10 +169,8 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.manage" />
-    </list>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -155,6 +194,7 @@
       <workItem from="1546534195398" duration="6052000" />
       <workItem from="1546550223286" duration="1198000" />
       <workItem from="1546590540104" duration="12966000" />
+      <workItem from="1607005562707" duration="188000" />
     </task>
     <servers />
   </component>
@@ -162,73 +202,28 @@
     <option name="totallyTimeSpent" value="69553000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593000515194">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593000515194" />
-    <state x="689" y="354" width="599" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590565555957">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="689" y="354" width="599" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590565555957" />
-    <state x="2701" y="297" width="317" height="313" key="FileChooserDialogImpl" timestamp="1594634485145">
-      <screen x="1982" y="0" width="1858" height="1080" />
-    </state>
-    <state x="495" y="187" width="317" height="313" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1594018480863" />
-    <state x="2701" y="297" key="FileChooserDialogImpl/0.0.1280.680/1982.0.1858.1080@1982.0.1858.1080" timestamp="1594634485145" />
-    <state x="2343" y="373" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.76.1920.1080@1600.76.1920.1080" timestamp="1589099962552" />
-    <state x="784" y="317" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593005780466" />
-    <state width="1899" height="163" key="GridCell.Tab.0.bottom" timestamp="1594043574780">
+    <state width="1899" height="163" key="GridCell.Tab.0.bottom" timestamp="1607008082115">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1594031138513" />
-    <state width="1899" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594043574780" />
-    <state width="967" height="339" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593005783826" />
-    <state width="1899" height="163" key="GridCell.Tab.0.center" timestamp="1594043574780">
+    <state width="1899" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607007116894" />
+    <state width="1899" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607008082115" />
+    <state width="1899" height="163" key="GridCell.Tab.0.center" timestamp="1607008082115">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1594031138513" />
-    <state width="1899" height="163" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594043574780" />
-    <state width="967" height="339" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593005783826" />
-    <state width="1899" height="163" key="GridCell.Tab.0.left" timestamp="1594043574779">
+    <state width="1899" height="163" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607007116894" />
+    <state width="1899" height="163" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607008082115" />
+    <state width="1899" height="163" key="GridCell.Tab.0.left" timestamp="1607008082115">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1594031138513" />
-    <state width="1899" height="163" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594043574779" />
-    <state width="967" height="339" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593005783826" />
-    <state width="1899" height="163" key="GridCell.Tab.0.right" timestamp="1594043574780">
+    <state width="1899" height="163" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607007116893" />
+    <state width="1899" height="163" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607008082115" />
+    <state width="1899" height="163" key="GridCell.Tab.0.right" timestamp="1607008082115">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1594031138513" />
-    <state width="1899" height="163" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594043574780" />
-    <state width="967" height="339" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593005783826" />
-    <state x="284" y="0" key="SettingsEditor" timestamp="1594018497836">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="284" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1594018497836" />
-    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590564090692" />
-    <state x="2643" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594039797493">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2643" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594039797493" />
-    <state x="765" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590577339385" />
-    <state x="426" y="58" width="739" height="606" key="find.popup" timestamp="1594031282402">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="426" y="58" width="739" height="606" key="find.popup/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1594031282402" />
-    <state x="683" y="117" width="620" height="870" key="find.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1590912502745" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/heroku_2/urls.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="1899" height="163" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607007116894" />
+    <state width="1899" height="163" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607008082115" />
   </component>
 </project>
