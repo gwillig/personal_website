@@ -2,49 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e60e69c2-4bd0-4d54-a208-5dd358df43dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/css/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/css/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/css/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/css/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/css/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/css/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/css/style.blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/background_bavaria_desktop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/background_bavaria_mobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/bar_chart_skills_desktop.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/bar_chart_skills_mobile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/pie_chart_60.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/pie_chart_80.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/pie_chart_90.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/image/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/js/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/js/front.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/js/jquery/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/js/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/js/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/js/jquery/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/homepage/static/js/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/background_large_2400_2999.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/background_medium_1920_2399.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/background_original_3106_3882.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/background_small_640_799.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/bot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/css/home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/github.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/linkedin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/mail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/homepage/static/photo_gustav.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/homepage/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/homepage/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/portfolio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/portfolio/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website_portfolio.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/website_portfolio.pptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/portfolio/homepage/static/css/bootstrap/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -109,11 +69,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\Website" />
       <recent name="C:\projects\Website\portfolio\homepage\static\css\bootstrap\js" />
       <recent name="C:\projects\Website\portfolio\homepage\static\css" />
       <recent name="C:\projects\Website\portfolio\homepage\static\js" />
       <recent name="C:\projects\Website\portfolio\skills\static" />
-      <recent name="C:\projects\Website\portfolio\skills" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\Website\portfolio\homepage\static\css\bootstrap\js\jquery" />
@@ -205,25 +165,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="163" key="GridCell.Tab.0.bottom" timestamp="1607008082115">
+    <state width="1899" height="163" key="GridCell.Tab.0.bottom" timestamp="1607009285725">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607007116894" />
-    <state width="1899" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607008082115" />
-    <state width="1899" height="163" key="GridCell.Tab.0.center" timestamp="1607008082115">
+    <state width="1899" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607009285725" />
+    <state width="1899" height="163" key="GridCell.Tab.0.center" timestamp="1607009285725">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="163" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607007116894" />
-    <state width="1899" height="163" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607008082115" />
-    <state width="1899" height="163" key="GridCell.Tab.0.left" timestamp="1607008082115">
+    <state width="1899" height="163" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607009285725" />
+    <state width="1899" height="163" key="GridCell.Tab.0.left" timestamp="1607009285725">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="163" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607007116893" />
-    <state width="1899" height="163" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607008082115" />
-    <state width="1899" height="163" key="GridCell.Tab.0.right" timestamp="1607008082115">
+    <state width="1899" height="163" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607009285725" />
+    <state width="1899" height="163" key="GridCell.Tab.0.right" timestamp="1607009285725">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="163" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607007116894" />
-    <state width="1899" height="163" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607008082115" />
+    <state width="1899" height="163" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607009285725" />
   </component>
 </project>
