@@ -1,5 +1,14 @@
 @charset "utf-8";
 
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	color: #fff;
+	background-color: #464c53;
+}
+
+.nav-pills a{
+	color: #fff;
+}
+
 
 .main_container {
 	background-image: url(../images/background_bavaria_desktop.jpg);
