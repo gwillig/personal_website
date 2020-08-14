@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=C:\foodwatch\foodwatch\venv"
+set "VIRTUAL_ENV=C:\projects\Website\venv"
 
 if not defined PROMPT (
     set "PROMPT=$P$G"

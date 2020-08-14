@@ -1,4 +1,4 @@
-#!C:\foodwatch\foodwatch\venv\Scripts\python.exe
+#!C:\projects\Website\venv\Scripts\python.exe
 from django.core import management
 
 if __name__ == "__main__":

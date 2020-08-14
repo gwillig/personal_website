@@ -12,7 +12,6 @@ cffi==1.9.1
 chardet==2.3.0
 chest==0.2.3
 Click==7.0
-cloudpickle==0.2.2
 clyent==1.2.2
 colorama==0.3.7
 comtypes==1.1.2
