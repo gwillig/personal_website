@@ -739,9 +739,11 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
   #hero_img {
     background-image: url(../image/background_bavaria_mobile.jpg)!important;
   }
+    /*
   .welcome{
     display:none
   }
+    */
   .greeting{
     position: absolute;
   }
