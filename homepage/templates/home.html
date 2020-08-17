@@ -20,10 +20,12 @@
     <link rel="shortcut icon" type="image/png" href="{% static 'image/favicon-32x32.png' %}"/>
     <link rel="icon" type="image/png" sizes="32x32" type="image/png" href="{% static 'image/favicon-32x32.png' %}"/>
     <link rel="shortcut icon" type="image/png" sizes="16x16"  href="{% static 'image/favicon-16x16.png' %}"/>
-    <link rel="manifest"href="{% static 'image/site.webmanifest' %}"/>>
+
+    <link rel="manifest"href="{% static 'image/site.webmanifest' %}"/>
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
   </head>
   <body>
     <!-- navbar-->
@@ -49,10 +51,8 @@
     <section id="hero_img" class="hero bg-cover bg-center mt-5" id="hero" style="background: url({% static 'image/background_bavaria_desktop.jpg' %})">
       <div class="container py-5 my-5 index-forward">
         <div class="row">
-          <div class="greeting col-md-8 text-white col-xl-5">
-            <h2 class=" welcome text-primary font-weight-normal mb-0">Hi, I am</h2>
-            <h1 class=" text-xl mb-0">Gustav <span class="text-primary">Willig</span></h1>
-            <h2 class="h4 font-weight-normal mb-5">AI Full-Stack Developer </h2>
+          <div  id="greeting" class="greeting col-md-8 text-white col-xl-5">
+
           </div>
         </div>
 
@@ -376,6 +376,9 @@
     <script src="{% static 'js/jquery/jquery.min.js' %}"></script>
     <script src="{% static 'js/jquery/bootstrap.bundle.min.js' %}"></script>
     <script src="{% static 'js/front.js' %}"></script>
+    <script src="{% static 'js/typed.js' %}"></script>
+        <script src="{% static 'js/typed.min.js' %}"></script>
+    <script src="{% static 'js/homepage.js' %}"></script>
     <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </body>
