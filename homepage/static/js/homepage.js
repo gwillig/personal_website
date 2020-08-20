@@ -1,20 +1,47 @@
- var typed2 = new Typed('#greeting', {
-    strings: ['<h2 class=" welcome text-primary font-weight-normal mb-0">Hi, I am</h2><h1 class=" text-xl mb-0">Gustav <span class="text-primary">Willig</span></h1><span id="job" class="h4 font-weight-normal mb-5">Front-End Developer ',],
-    typeSpeed: 100,
-    backSpeed: 0,
-    fadeOut: true,
-    cursorChar: '|',
-    onComplete: function(self) {  var typed2 = new Typed('#job', {
-    strings: ["AI Engineer", "Full-Stack Developer",'AI Full-Stack Developer',],
-    typeSpeed: 100,
-    backSpeed: 0,
-    fadeOut: true,
-    cursorChar: '|'
-  });
 
+new Typed('#greeting', {
+  strings: ['Hi, I am'],
+  typeSpeed: 100,
+  backSpeed: 100,
+  fadeOut: true,
+  cursorChar: '|',
+  onComplete: function(self) {
+    self.cursor.remove()
+    new Typed('#first_name', {
 
-    },
-  });
+      strings: ['Gustav '],
+      startDelay:1500,
+      typeSpeed: 100,
+      backSpeed: 10000,
+      fadeOut: true,
+      cursorChar: '|',
+      onComplete: function(self) {
+        self.cursor.remove()
+        new Typed('#last_name', {
+
+          strings: ['Willig'],
+          typeSpeed: 100,
+          backSpeed: 10000,
+          fadeOut: true,
+          cursorChar: '|',
+          onComplete: function(self) {
+            self.cursor.remove()
+            new Typed('#job', {
+
+              strings: ['Researcher','AI Engineer', 'Full-Stack Developer','AI Full-Stack Developer'],
+              startDelay:1500,
+              typeSpeed: 100,
+              backSpeed: 10000,
+              fadeOut: true,
+              cursorChar: '|',
+
+            });
+          },
+        });
+      },
+    });
+  },
+});
 
 
 

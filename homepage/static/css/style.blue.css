@@ -14,6 +14,8 @@
 *
 */
 /***************************************/
+
+
 .tech-tags a, .tech-tags a:hover {
   background-color: #2b90d9;
 }
@@ -37,7 +39,7 @@ body {
 }
 
 section {
-  padding: 6.5rem 0;
+  padding: 9rem 0;
   overflow: hidden;
   position: relative;
 }
@@ -143,7 +145,7 @@ a.contact-item .contact-item-title, a.contact-item p {
 
 .hero::before {
   content: '';
-  width: 40%;
+  width: 60%;
   height: 100%;
   position: absolute;
   top: 0;
@@ -682,6 +684,9 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
 }
 
 @media (min-width: 576px) {
+  .row {
+      height: 200px;
+  }
   .light-overlay-sm,
   .overlay-hover-light-sm {
     position: relative;
