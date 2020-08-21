@@ -682,7 +682,14 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
   position: relative;
   z-index: 20;
 }
-
+@media (max-width: 400px) {
+    #first_name{
+        font-size: 40px !important;
+    }
+    #last_name{
+        font-size: 40px !important;
+    }
+}
 @media (min-width: 576px) {
   .row {
       height: 200px;
