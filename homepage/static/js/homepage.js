@@ -34,7 +34,9 @@ new Typed('#greeting', {
               backSpeed: 10000,
               fadeOut: true,
               cursorChar: '|',
-
+              onComplete: function(self) {
+                        self.cursor.remove()
+               }
             });
           },
         });
