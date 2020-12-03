@@ -1,4 +1,4 @@
-#!C:\Users\gustav\Dropbox\Master\Javascript\heroku_2\venv\Scripts\python.exe
+#!C:\foodwatch\foodwatch\venv\Scripts\python.exe
 from django.core import management
 
 if __name__ == "__main__":

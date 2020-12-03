@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=C:\Users\gustav\Dropbox\Master\Javascript\heroku_2\venv"
+set "VIRTUAL_ENV=C:\foodwatch\foodwatch\venv"
 
 if not defined PROMPT (
     set "PROMPT=$P$G"
