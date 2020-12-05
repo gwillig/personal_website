@@ -14,7 +14,15 @@
 *
 */
 /***************************************/
-
+.cv{
+    text-align: center;
+}
+.notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
 
 .tech-tags a, .tech-tags a:hover {
   background-color: #2b90d9;
