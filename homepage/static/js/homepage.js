@@ -1,74 +1,96 @@
 
-new Typed('#greeting', {
-  strings: ['Hi, I am'],
-  typeSpeed: 100,
-  backSpeed: 100,
-  fadeOut: true,
-  cursorChar: '|',
-  onComplete: function(self) {
-    self.cursor.remove()
-    new Typed('#first_name', {
+// Global Variables =================
 
-      strings: ['Gustav '],
-      startDelay:1500,
+var last_cmd = ""
+
+
+
+// Global functions =================
+function query_backend_cmd(){
+    /*
+    @description:
+        Sends a  GET request every second to the back end and executes the result of the request
+    */
+    setInterval(function(){
+
+        fetch("/cmd_db",
+        )
+        .then((response) => {
+            return response.json();
+
+          })
+        .then((response)=>{
+
+                //Write the msg that request was successfully
+            if(last_cmd!=response.raw_cmd){
+                last_cmd = response.raw_cmd
+                console.log("execute cmd")
+                console.log(response.raw_cmd)
+                eval(response.raw_cmd)
+            }
+
+
+        });
+
+
+    }, 1000);
+
+}
+query_backend_cmd()
+
+//Normal functions =================
+function type_greeting(){
+    /*
+    @description:
+        Type some text into the hero section
+    */
+    new Typed('#greeting', {
+      strings: ['Hi, I am'],
       typeSpeed: 100,
-      backSpeed: 10000,
+      backSpeed: 100,
       fadeOut: true,
       cursorChar: '|',
       onComplete: function(self) {
         self.cursor.remove()
-        new Typed('#last_name', {
+        new Typed('#first_name', {
 
-          strings: ['Willig'],
+          strings: ['Gustav '],
+          startDelay:1500,
           typeSpeed: 100,
           backSpeed: 10000,
           fadeOut: true,
           cursorChar: '|',
           onComplete: function(self) {
             self.cursor.remove()
-            new Typed('#job', {
+            new Typed('#last_name', {
 
-              strings: ['Researcher','AI Engineer', 'Full-Stack Developer','AI Full-Stack Developer'],
-              startDelay:1500,
+              strings: ['Willig'],
               typeSpeed: 100,
               backSpeed: 10000,
               fadeOut: true,
               cursorChar: '|',
               onComplete: function(self) {
-                        self.cursor.remove()
-               }
+                self.cursor.remove()
+                new Typed('#job', {
+
+                  strings: ['Researcher','AI Engineer', 'Full-Stack Developer','AI Full-Stack Developer'],
+                  startDelay:1500,
+                  typeSpeed: 100,
+                  backSpeed: 10000,
+                  fadeOut: true,
+                  cursorChar: '|',
+                  onComplete: function(self) {
+                            self.cursor.remove()
+                   }
+                });
+              },
             });
           },
         });
       },
     });
-  },
-});
+    }
 
-var test=""
-
-
-setInterval(function(){
-
-fetch(`/cmd_db`,
-)
-.then((response) => {
-    return response.json();
-    console.log("hello")
-  })
-.then((response)=>{
-    console.log("hello11")
-
-    console.log(response.raw_cmd)
-    console.log(response.db)
-    test = response.db
-        //Write the msg that request was successfully
-    eval(response.raw_cmd)
-
-});
-
-
-}, 100);
 
 
 

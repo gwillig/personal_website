@@ -1,0 +1,48 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{% if subtitle %}{{ subtitle }} | {% endif %}{{ title }} | {{ site_title|default:_('') }}{% endblock %}
+
+{% block branding %}
+
+<h1 id="site-name"><a href="{% url 'admin:index' %}">{{ site_header|default:_('Django administration') }}</a></h1>
+<div id="excute_cmd">
+   <label for="cmd_input">Code</label>
+  <input type="text" id="cmd_input" ><br><br>
+  <input type="button" value="execute" onclick="post_cmd()">
+  <script>
+function getCookie(name) {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+        const cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+            const cookie = cookies[i].trim();
+            // Does this cookie string begin with the name we want?
+            if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+
+  function post_cmd(){
+      //1.Step: Get the value of the input field
+      let cmd_value = document.querySelector('#cmd_input').value
+      //2.Step: Post the value to the db
+      fetch("/cmd_db", {
+            method: "POST",
+            credentials: "same-origin",
+            headers: {
+              "X-CSRFToken": getCookie("csrftoken"),
+              "Accept": "application/json",
+              'Content-Type': 'application/json'
+            },
+            body:JSON.stringify({"raw_cmd":cmd_value})
+          })
+   }
+  </script>
+</div>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

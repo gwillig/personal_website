@@ -19,5 +19,5 @@ from . import views
 
 urlpatterns = [
     path('', views.home, name="home"),
-    path('cmd_db', views.get_cmd_db, name="cmd_db"),
+    path('cmd_db', views.cmd_db, name="cmd_db"),
 ]
