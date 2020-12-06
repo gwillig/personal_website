@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,800&amp;display=swap">
     <!-- theme stylesheet-->
     {% load static %}
-    <link rel="stylesheet" type="text/css" href="{%static 'css/style.blue.css' %}">
+    <link rel="stylesheet" type="text/css" href="{%static 'css/homepage.css' %}">
     <!-- Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" type="image/png" href="{% static 'image/apple-touch-icon.png' %}"/>
     <link rel="shortcut icon" type="image/png" href="{% static 'image/favicon-32x32.png' %}"/>
@@ -31,7 +31,7 @@
     <!-- navbar-->
     <header class="header">
       <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container"><a class="navbar-brand" href="#"><img src="{% static 'image/android-chrome-192x192.png' %}" alt="" width="45"></a>
+        <div class="container notransition"><a class="navbar-brand" href="#"><img src="{% static 'image/android-chrome-192x192.png' %}" alt="" width="45"></a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
@@ -51,7 +51,7 @@
     <section id="hero_img" class="hero bg-cover bg-center mt-5" id="hero" style="background: url({% static 'image/background_bavaria_desktop.jpg' %})">
       <div class="container py-5 my-5 index-forward">
         <div class="row p-3">
-          <div class="greeting  col-md-8 text-white col-xl-3">
+          <div class="greeting  col-md-8 text-white col-xl-4">
           <h2  class=" welcome text-primary font-weight-normal mb-0"><span id="greeting"></span></h2>
           <h1   class=" text-xl mb-0">
           <span id="first_name"></span>&nbsp<span id="last_name"class="text-primary"></span>
