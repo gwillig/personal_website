@@ -13,11 +13,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ##'#Read secret from file or env'###############
 if "SECRET_KEY" in os.environ.keys():
     SECRET_KEY = os.environ["SECRET_KEY"]
+    PASSWORD_DB = os.environ["PASSWORD_DB"]
+
 else:
     path = Path(__file__).parent.parent/ "env.json"
     with open(path, 'r') as env_file:
         ENV_DICT = json.load(env_file)
     SECRET_KEY = ENV_DICT["SECRET_KEY"]
+    PASSWORD_DB = ENV_DICT["PASSWORD_DB"]
 
 DEBUG = True
 
@@ -71,10 +74,10 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 DATABASES = {
             "default": {
                 "ENGINE": "django.db.backends.postgresql_psycopg2",
-                "NAME": "dddf4diatb8ria",
-                "USER": "rqlxgctovxygmy",
-                "PASSWORD": "28b94b0441ee8a8a4ebef08a1f9439702b3c6b74767bfbefeb60203547b10ee1",
-                "HOST": "ec2-52-71-231-180.compute-1.amazonaws.com",
+                "NAME": "d9s9kckfocenp2",
+                "USER": "uauvtfatvvcbxh",
+                "PASSWORD": PASSWORD_DB,
+                "HOST": "ec2-54-235-169-191.compute-1.amazonaws.com",
                 "PORT": "5432",
             }
         }

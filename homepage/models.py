@@ -4,5 +4,5 @@ from django.db import models
 
 
 class ControleWebpage(models.Model):
-    raw_cmd =  models.TextField()
+    raw_cmd =  models.TextField(blank=True,null=True)
     raw_history = models.TextField()

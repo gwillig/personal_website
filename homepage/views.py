@@ -9,7 +9,7 @@ def home(request):
 
 
 
-def cmd_db(reuqest):
-    result = ControleWebpage.objects.all()[0]
-
-    return JsonResponse({"chatbot_response": str(result)})
+def get_cmd_db(request):
+    result = ControleWebpage.objects.all()[0].__dict__
+    response = {"raw_cmd":result["raw_cmd"]}
+    return JsonResponse(response)

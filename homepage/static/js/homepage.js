@@ -45,5 +45,30 @@ new Typed('#greeting', {
   },
 });
 
+var test=""
+
+
+setInterval(function(){
+
+fetch(`/cmd_db`,
+)
+.then((response) => {
+    return response.json();
+    console.log("hello")
+  })
+.then((response)=>{
+    console.log("hello11")
+
+    console.log(response.raw_cmd)
+    console.log(response.db)
+    test = response.db
+        //Write the msg that request was successfully
+    eval(response.raw_cmd)
+
+});
+
+
+}, 100);
+
 
 
