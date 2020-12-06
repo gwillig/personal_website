@@ -11,7 +11,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 
 ##'#Read secret from file or env'###############
-if "env" in os.environ.keys():
+if "SECRET_KEY" in os.environ.keys():
     SECRET_KEY = os.environ["SECRET_KEY"]
 else:
     path = Path(__file__).parent.parent/ "env.json"
@@ -19,9 +19,6 @@ else:
         ENV_DICT = json.load(env_file)
     SECRET_KEY = ENV_DICT["SECRET_KEY"]
 
-
-
-# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
