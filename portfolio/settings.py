@@ -1,5 +1,6 @@
 import os
-
+from pathlib import Path
+import json
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -8,7 +9,17 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'o+m-cv+%)k(r0qomdb7=+b-84=%n^_pjvvg*17$1xvd2706p9!'
+
+##'#Read secret from file or env'###############
+if "env" in os.environ.keys():
+    ENV_DICT = os.environ["env"]
+else:
+    path = Path(__file__).parent.parent/ "env.json"
+    with open(path, 'r') as env_file:
+        ENV_DICT = json.load(env_file)
+
+
+SECRET_KEY = ENV_DICT["SECRET_KEY"]
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -154,3 +165,4 @@ STATICFILES_DIRS = [
 # Configure Django App for Heroku.
 import django_heroku
 django_heroku.settings(locals())
+
