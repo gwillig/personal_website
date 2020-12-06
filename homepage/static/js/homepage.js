@@ -6,6 +6,8 @@ var last_cmd = ""
 
 
 // Global functions =================
+type_greeting()
+query_backend_cmd()
 function query_backend_cmd(){
     /*
     @description:
@@ -36,9 +38,6 @@ function query_backend_cmd(){
     }, 1000);
 
 }
-query_backend_cmd()
-
-//Normal functions =================
 function type_greeting(){
     /*
     @description:
@@ -90,7 +89,7 @@ function type_greeting(){
       },
     });
     }
-
+//Normal functions =================
 
 
 
