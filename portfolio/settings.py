@@ -12,7 +12,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 ##'#Read secret from file or env'###############
 if "env" in os.environ.keys():
-    ENV_DICT = os.environ["env"]
+    ENV_DICT = os.environ["SECRET_KEY"]
 else:
     path = Path(__file__).parent.parent/ "env.json"
     with open(path, 'r') as env_file:
