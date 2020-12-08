@@ -683,9 +683,6 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
     }
 }
 @media (min-width: 576px) {
-  .row {
-      height: 200px;
-  }
   .light-overlay-sm,
   .overlay-hover-light-sm {
     position: relative;
