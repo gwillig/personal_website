@@ -194,7 +194,15 @@ function post_cmd(cmd_value){
 document.querySelector ("body").addEventListener ("keypress", function (event) {
     /* Num 1: Greeting=====================*/
     if(event.keyCode==49){
-        post_cmd('empty_greeting_section();append_text_smooth("Schön Sie zu kennenzulernen Herr Berkemeyer");');
+       fetch(`/greeting`,
+        )
+        .then((response) => {
+            return response.json();
+
+          })
+        .then((response)=>{
+            post_cmd(`empty_greeting_section();append_text_smooth("${response.greeting_text}");`);
+        })
     }
     /* Num 2: experience=====================*/
     else if(event.keyCode==50){
@@ -220,9 +228,14 @@ document.querySelector ("body").addEventListener ("keypress", function (event) {
         post_cmd(`scrollTo({left:window.scrollX,top:window.scrollY-20,behavior: 'smooth'})`)
 
     }
-       /* Num7:  Stop scroll=====================*/
+    /* Num7:  Stop scroll=====================*/
     else if(event.keyCode==55){
         post_cmd(`console.log("")`)
+
+    }
+    /* Num8:  Reload scroll=====================*/
+    else if(event.keyCode==56){
+        post_cmd(`location.reload();`)
 
     };
 })

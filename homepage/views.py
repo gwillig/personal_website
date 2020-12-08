@@ -2,11 +2,11 @@ from django.shortcuts import render
 from django.http import Http404, JsonResponse
 import json
 # Create your views here.
-from homepage.models import ControleWebpage, ExecuteCMD, ClientInfo
+from homepage.models import ControleWebpage, ExecuteCMD, ClientInfo, Misc
+
 
 def home(request):
     return render(request, 'home.html', {"section": {"title": "home"}})
-
 
 
 def cmd_db(request, innerHeight='', innerWidth=''):
@@ -33,3 +33,9 @@ def cmd_db(request, innerHeight='', innerWidth=''):
         cmd_obj.raw_cmd = data["raw_cmd"]
         cmd_obj.save()
         return JsonResponse({"status":200})
+
+
+def greeting(request):
+    result = Misc.objects.all()[0].__dict__
+    response = {"greeting_text": result["greeting_text"]}
+    return JsonResponse(response)

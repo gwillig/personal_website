@@ -21,4 +21,5 @@ urlpatterns = [
     path('', views.home, name="home"),
     path('cmd_db', views.cmd_db, name="cmd_db"),
     path('cmd_db/<int:innerHeight>/<int:innerWidth>', views.cmd_db, name="cmd_db"),
+    path('greeting', views.greeting, name="cmd_db"),
 ]
