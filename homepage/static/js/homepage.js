@@ -72,7 +72,7 @@ function type_greeting(){
                 self.cursor.remove()
                 new Typed('#job', {
 
-                  strings: ['Researcher','AI Engineer', 'Full-Stack Developer','AI Full-Stack Developer'],
+                  strings: ['Researcher', 'Full-Stack Developer','Front-End Developer','AI Engineer','AI Full-Stack Developer'],
                   startDelay:1500,
                   typeSpeed: 100,
                   backSpeed: 10000,

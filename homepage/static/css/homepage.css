@@ -745,7 +745,7 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
     display:none
   }
     */
-  .greeting{
+  #greeting_section{
     position: absolute;
   }
 }
