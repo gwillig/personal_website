@@ -15,7 +15,9 @@ function query_backend_cmd(){
     */
     setInterval(function(){
 
-        fetch("/cmd_db",
+        let innerHeight = window.innerHeight ;
+        let innerWidth = window.innerWidth;
+        fetch(`/cmd_db/${innerHeight}/${innerWidth}`,
         )
         .then((response) => {
             return response.json();
