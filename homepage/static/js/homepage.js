@@ -91,5 +91,44 @@ function type_greeting(){
     }
 //Normal functions =================
 
+function empty_greeting_section(){
+    /*
+    @description:
+     Delete all children of the greeting_section and appends an unordered list
+     */
+    //1.Step: Get the greeting section
+    let greeting_section = document.querySelector("#greeting_section");
+
+    //2.Step: Delete all children
+    greeting_section.innerHTML = '';
+    //3.Step: Create unordered list
+    let ul_list = document.createElement("ul");
+    ul_list.className="h4"
+    ul_list.style.cssText="padding-left:0px;"
+    //34.Step: Append unordered list
+    greeting_section.append(ul_list);
+
+}
+
+
+function append_text_smooth(text){
+    /*
+    @description:
+        Append new bullet point to the greeting_section
+    @args:
+     text(string)
+
+    @return:
+     nothing
+    *
+    * */
+
+    //1.Step: Create new bullet point
+    var liData = '<li class="new-rows" style="display:none;"></li>'
+    //2.Step: Append new created object
+    $(liData).appendTo('#greeting_section ul').fadeIn('slow');
+    jQuery('.new-rows').html(text , 500);
+}
+
 
 
