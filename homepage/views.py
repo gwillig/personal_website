@@ -9,7 +9,7 @@ def home(request):
 
 
 
-def cmd_db(request,innerHeight,innerWidth):
+def cmd_db(request, innerHeight='', innerWidth=''):
     if request.method == 'GET':
         '#1.Step: Save the requested ip + view_port'
         client_ip = request.META.get('REMOTE_ADDR')

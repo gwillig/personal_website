@@ -5,7 +5,8 @@ from homepage.models import ControleWebpage, ExecuteCMD, ClientInfo
 
 class ProductInline(admin.ModelAdmin):
     model = ExecuteCMD
-    list_display = ["id","raw_cmd"]
+    list_display = ["id", "raw_cmd"]
+    list_editable = ["raw_cmd"]
 
     # list_editable = ['raw_cmd']
 
