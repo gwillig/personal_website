@@ -8,7 +8,7 @@
 <div id="excute_cmd">
    <label for="cmd_input">Code</label>
   <input type="text" id="cmd_input" ><br><br>
-  <input type="button" value="execute" onclick="post_cmd()">
+  <input type="button" value="execute" onclick="(() =>post_cmd(document.querySelector('#cmd_input').value))()">
   <script>
 function getCookie(name) {
     let cookieValue = null;
@@ -26,9 +26,8 @@ function getCookie(name) {
     return cookieValue;
 }
 
-  function post_cmd(){
-      //1.Step: Get the value of the input field
-      let cmd_value = document.querySelector('#cmd_input').value
+  function post_cmd(cmd_value){
+
       //2.Step: Post the value to the db
       fetch("/cmd_db", {
             method: "POST",

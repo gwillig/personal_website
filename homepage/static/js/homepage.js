@@ -26,11 +26,20 @@ function query_backend_cmd(){
         .then((response)=>{
 
                 //Write the msg that request was successfully
-            if(last_cmd!=response.raw_cmd){
+            if(last_cmd!=response.raw_cmd || response.raw_cmd.includes("scroll")){
                 last_cmd = response.raw_cmd
                 console.log("execute cmd")
                 console.log(response.raw_cmd)
+                //.Step: Try to execute cmd
                 eval(response.raw_cmd)
+//                try{
+//
+//                }
+//                catch(e){
+//
+//                    console.log(e)
+//
+//                }
             }
 
 
@@ -132,5 +141,89 @@ function append_text_smooth(text){
     jQuery('.new-rows').html(text , 500);
 }
 
+function getCookie(name) {
+    /*
+    @description:
+        Get the Cookie for any post request (src: https://docs.djangoproject.com/en/3.1/ref/csrf/)
+    @args:
+     name(string): e.g. 'csrftoken'
 
+    @return:
+     cookieValue (str): e.g."y4PCAyO4w2A8guSAnkiXqpocp9imnVG9d66xwKrtdqJpv1mZNqgHgNisRGI6EXJE"
+    *
+    */
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+        const cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+            const cookie = cookies[i].trim();
+            // Does this cookie string begin with the name we want?
+            if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+
+function post_cmd(cmd_value){
+    /*
+    @description:
+        Post a cmd to the db. This cmd will be executed on every client.
+    @args:
+     cmd_value(string): e.g. 'console.log("hello")'
+
+    @return:
+     nothing
+    *
+    */
+  //1.Step: Post the value to the db
+  fetch("/cmd_db", {
+        method: "POST",
+        credentials: "same-origin",
+        headers: {
+          "X-CSRFToken": getCookie("csrftoken"),
+          "Accept": "application/json",
+          'Content-Type': 'application/json'
+        },
+        body:JSON.stringify({"raw_cmd":cmd_value})
+      })
+}
+
+document.querySelector ("body").addEventListener ("keypress", function (event) {
+    /* Num 1: Greeting=====================*/
+    if(event.keyCode==49){
+        post_cmd('empty_greeting_section();append_text_smooth("Schön Sie zu kennenzulernen Herr Berkemeyer");');
+    }
+    /* Num 2: experience=====================*/
+    else if(event.keyCode==50){
+        post_cmd(`$("html, body").animate({ scrollTop: $('#experience').position().top }, 3000)`)
+    }
+    /* Num 3: Eduction=====================*/
+    else if(event.keyCode==51){
+        post_cmd(`$("html, body").animate({ scrollTop: $('#education').position().top }, 3000)`)
+
+    }
+   /* Num4:  hero=====================*/
+    else if(event.keyCode==52){
+        post_cmd(`$("html, body").animate({ scrollTop: $('#hero_img').position().top }, 3000)`)
+
+    }
+   /* Num5:  Scroll down====================*/
+    else if(event.keyCode==53){
+        post_cmd(`scrollTo({left:window.scrollX,top:window.scrollY+20,behavior: 'smooth'})`)
+
+    }
+    /* Num6:  Scroll up====================*/
+    else if(event.keyCode==54){
+        post_cmd(`scrollTo({left:window.scrollX,top:window.scrollY-20,behavior: 'smooth'})`)
+
+    }
+       /* Num7:  Stop scroll=====================*/
+    else if(event.keyCode==55){
+        post_cmd(`console.log("")`)
+
+    };
+})
 
