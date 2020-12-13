@@ -112,15 +112,38 @@ function empty_greeting_section(){
 
     //2.Step: Delete all children
     greeting_section.innerHTML = '';
-    //3.Step: Create unordered list
-    let ul_list = document.createElement("ul");
-    ul_list.className="h4"
-    ul_list.style.cssText="padding-left:0px;"
-    //34.Step: Append unordered list
-    greeting_section.append(ul_list);
 
 }
 
+function type_new_greeting(text){
+    /*
+    @description:
+        Creates a new span in the greeting_section and type a greeting
+    @args:
+        text(str): 'Hello Mr. Willig'
+    */
+    //1.Step: Get the greeting section
+    let greeting_section = document.querySelector("#greeting_section");
+    //2.Step: Delete all children
+    greeting_section.innerHTML = '';
+    //3.Step: Create span list
+    let span_new = document.createElement("span");
+    span_new.id = "greeting";
+    span_new.className="h2";
+    //3.1 Step: Append span
+    greeting_section.append(span_new);
+    //4.1.Step: Typs greeting
+    new Typed('#greeting', {
+      strings: [text],
+      typeSpeed: 100,
+      backSpeed: 100,
+      fadeOut: true,
+      cursorChar: '|',
+      onComplete: function(self) {
+        self.cursor.remove()
+     }
+     })
+}
 
 function append_text_smooth(text){
     /*
@@ -133,10 +156,16 @@ function append_text_smooth(text){
      nothing
     *
     * */
-
-    //1.Step: Create new bullet point
+    //1.Step: Create unordered list
+    let ul_list = document.createElement("ul");
+    ul_list.className="h4";
+    ul_list.style.cssText="padding-left:0px;"
+    //1.2.Step: Append unordered list
+    let greeting_section = document.querySelector("#greeting_section");
+    greeting_section.append(ul_list);
+    //2.Step: Create new bullet point
     var liData = '<li class="new-rows" style="display:none;"></li>'
-    //2.Step: Append new created object
+    //3.Step: Append new created object
     $(liData).appendTo('#greeting_section ul').fadeIn('slow');
     jQuery('.new-rows').html(text , 500);
 }
@@ -190,7 +219,13 @@ function post_cmd(cmd_value){
         body:JSON.stringify({"raw_cmd":cmd_value})
       })
 }
-
+/* Num 1: Greeting=====================*/
+/* Num 2: experience=====================*/
+/* Num 3: Eduction=====================*/
+/* Num4:  hero=====================*/
+/* Num5:  Scroll down====================*/
+/* Num6:  Scroll up====================*/
+/* Num7:  Stop scroll=====================*/
 document.querySelector ("body").addEventListener ("keypress", function (event) {
     /* Num 1: Greeting=====================*/
     if(event.keyCode==49){
@@ -201,16 +236,16 @@ document.querySelector ("body").addEventListener ("keypress", function (event) {
 
           })
         .then((response)=>{
-            post_cmd(`empty_greeting_section();append_text_smooth("${response.greeting_text}");`);
+            post_cmd(`type_new_greeting("${response.greeting_text}")`);
         })
     }
     /* Num 2: experience=====================*/
     else if(event.keyCode==50){
-        post_cmd(`$("html, body").animate({ scrollTop: $('#experience').position().top }, 3000)`)
+        post_cmd(`$("html, body").animate({ scrollTop: $('#education').position().top }, 3000)`)
     }
     /* Num 3: Eduction=====================*/
     else if(event.keyCode==51){
-        post_cmd(`$("html, body").animate({ scrollTop: $('#education').position().top }, 3000)`)
+        post_cmd(`$("html, body").animate({ scrollTop: $('#experience').position().top }, 3000)`)
 
     }
    /* Num4:  hero=====================*/
