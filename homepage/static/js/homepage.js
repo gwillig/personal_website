@@ -255,12 +255,12 @@ document.querySelector ("body").addEventListener ("keypress", function (event) {
     }
    /* Num5:  Scroll down====================*/
     else if(event.keyCode==53){
-        post_cmd(`scrollTo({left:window.scrollX,top:window.scrollY+20,behavior: 'smooth'})`)
+        post_cmd(`scrollTo({left:window.scrollX,top:window.scrollY+100,behavior: 'smooth'})`)
 
     }
     /* Num6:  Scroll up====================*/
     else if(event.keyCode==54){
-        post_cmd(`scrollTo({left:window.scrollX,top:window.scrollY-20,behavior: 'smooth'})`)
+        post_cmd(`scrollTo({left:window.scrollX,top:window.scrollY-100,behavior: 'smooth'})`)
 
     }
     /* Num7:  Stop scroll=====================*/
