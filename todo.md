@@ -16,4 +16,8 @@
    
 3.  Structure
     1. Replace front-end with REACT
-    2. Move everything to AWS 
+    2. Move everything to AWS
+    
+    
+ 4. Design:
+    1. Add an animtion: https://www.youtube.com/watch?v=wLUJ9VNzZXo
