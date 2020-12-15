@@ -13,42 +13,60 @@ function query_backend_cmd(){
     @description:
         Sends a  GET request every second to the back end and executes the result of the request
     */
-    setInterval(function(){
 
+
+
+
+
+}
+
+let in_progress = false;
+let missed_request = false;
+const getMachineAction = async () => {
+
+    if (in_progress) {
+        missed_request = true;
+        return;
+    }
+    in_progress = true;
+    try {
         let innerHeight = window.innerHeight ;
         let innerWidth = window.innerWidth;
-        fetch(`/cmd_db/${innerHeight}/${innerWidth}`,
-        )
-        .then((response) => {
-            return response.json();
 
-          })
-        .then((response)=>{
+        const response = await fetch(`/cmd_db/${innerHeight}/${innerWidth}`)
 
-                //Write the msg that request was successfully
+
+        if (missed_request) {
+            missed_request = false;
+            setTimeout(getMachineAction, 0);
+        }
+        if (response.status === 200) {
+            console.log("Machine successfully found.");
+            await response.json().then((response)=>{
+            //Write the msg that request was successfully
             if(last_cmd!=response.raw_cmd || response.raw_cmd.includes("scroll")){
                 last_cmd = response.raw_cmd
                 console.log("execute cmd")
                 console.log(response.raw_cmd)
                 //.Step: Try to execute cmd
                 eval(response.raw_cmd)
-//                try{
-//
-//                }
-//                catch(e){
-//
-//                    console.log(e)
-//
-//                }
             }
+            })
 
 
-        });
 
+        } else {
+            console.log("not a 200");
+        }
+    } catch (err) {
+        // catches errors both in fetch and response.json
+        console.log(err);
+    } finally {
+        in_progress = false;
+    }
+};
+setInterval(getMachineAction, 2000);
 
-    }, 1000);
-
-}
 function type_greeting(){
     /*
     @description:
