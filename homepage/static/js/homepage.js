@@ -83,7 +83,7 @@ function type_greeting(){
         new Typed('#first_name', {
 
           strings: ['Gustav '],
-          startDelay:1500,
+          startDelay:100,
           typeSpeed: 100,
           backSpeed: 10000,
           fadeOut: true,
@@ -102,7 +102,7 @@ function type_greeting(){
                 new Typed('#job', {
 
                   strings: ['Researcher', 'Full-Stack Developer','Front-End Developer','AI Engineer','AI Full-Stack Developer'],
-                  startDelay:1500,
+                  startDelay:100,
                   typeSpeed: 100,
                   backSpeed: 10000,
                   fadeOut: true,
@@ -147,7 +147,7 @@ function type_new_greeting(text){
     //3.Step: Create span list
     let span_new = document.createElement("span");
     span_new.id = "greeting";
-    span_new.className="h2";
+    span_new.className="h3";
     //3.1 Step: Append span
     greeting_section.append(span_new);
     //4.1.Step: Typs greeting
@@ -255,11 +255,12 @@ document.querySelector ("body").addEventListener ("keypress", function (event) {
           })
         .then((response)=>{
             post_cmd(`type_new_greeting("${response.greeting_text}")`);
+
         })
     }
     /* Num 2: experience=====================*/
     else if(event.keyCode==50){
-        post_cmd(`$("html, body").animate({ scrollTop: $('#education').position().top }, 3000)`)
+        post_cmd(`$("html, body").animate({ scrollTop: $('#education').position().top+$('#master_heilbronn').position().top}, 3000)`)
     }
     /* Num 3: Eduction=====================*/
     else if(event.keyCode==51){
