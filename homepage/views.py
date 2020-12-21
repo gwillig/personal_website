@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import Http404, JsonResponse
 import json
+from ipware import get_client_ip
 # Create your views here.
 from homepage.models import ControleWebpage, ExecuteCMD, ClientInfo, Misc
 
@@ -13,6 +14,7 @@ def cmd_db(request, innerHeight='', innerWidth=''):
     if request.method == 'GET':
         '#1.Step: Save the requested ip + view_port'
         client_ip = request.META.get('REMOTE_ADDR')
+        client_ip = get_client_ip(request)
         results = ClientInfo.objects.filter(client_ip=client_ip,
                                             innerHeight=innerHeight,
                                             innerWidth=innerWidth).count()
