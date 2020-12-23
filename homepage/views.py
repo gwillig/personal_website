@@ -25,7 +25,7 @@ def cmd_db(request, innerHeight='', innerWidth=''):
                        innerWidth=innerWidth).save()
         '#2.Step: Query saved cmd'
         result = ExecuteCMD.objects.all()[0].__dict__
-        response = {"raw_cmd":result["raw_cmd"]}
+        response = {"raw_cmd": result["raw_cmd"]}
         return JsonResponse(response)
     if request.method == 'POST':
         '#1.Step: Read the body '

@@ -8,6 +8,7 @@ A live version can be fount under http://gustavwillig.herokuapp.com/
    1) 1.2. Applications
    1) 1.3. Installation
    1) 1.4.  Run a demo locally 
+   1) 1.5. Folder Structure explained
 2. Developer-Information
    2) 2.1. Architecture
    2) 2.2. Test-Documentation
@@ -62,6 +63,18 @@ Follow these steps to run the application on a local computer
 ### 1.4 Run a demo locally 
 1. Activate created venv in step 1.3
 2. Run the application local <br>`python manage.py runserver 0.0.0.0:8000`
+
+### 1.5 Folder Structure explained
+    portfolio
+      ├── archive: Contains files which are no longer used
+      ├── readme_images: Contains pictures for the README.md
+      ├── templates: Contains the the adjusted templates files for the admin view
+      ├── portfolio: Contains the files for the base settings
+      ├── hompage: Contains the Files of the homepage app
+        ├── migrations: Django specific migrations
+        ├── static: Contains *.js, *.css, image  files for homepage 
+        ├── templates: Contains the templates-html files for homepage 
+        └── tests: Containts files for testing
 
 ## 2. Developer-Information
 ###2.1. Architecture
