@@ -12,3 +12,8 @@
    2. Add new pipeline to consider differnt ip-addeses
    3. Set-up an CI Pipeline
    4. Add Test cases
+   5. Add chatbot which answers basic quersion about Gustav
+   
+3.  Structure
+    1. Replace front-end with REACT
+    2. Move everything to AWS 
