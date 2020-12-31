@@ -1,6 +1,5 @@
  # Personal website
 This repository gives you an overview how the website http://gustavwillig.herokuapp.com/ is coded.
-A live version can be fount under http://gustavwillig.herokuapp.com/
 ## List of Contents
 
 ```
