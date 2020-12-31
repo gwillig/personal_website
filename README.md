@@ -3,6 +3,7 @@ This repository gives you an overview how the website http://gustavwillig.heroku
 A live version can be fount under http://gustavwillig.herokuapp.com/
 ## List of Contents
 
+```
 1. Getting Started
    1) 1.1.  Prerequisites
    1) 1.2. Applications
@@ -21,6 +22,7 @@ A live version can be fount under http://gustavwillig.herokuapp.com/
 4. Licenses
    4) 3.1. About this Application
    4) 3.2 Third Party Content
+```
 
 ![](readme_material/application.gif)
 ## 1. Getting Started
