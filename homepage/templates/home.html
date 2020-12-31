@@ -13,12 +13,16 @@
     <meta property="og:title" content="Gustav Willig - AI Full-Stack Developer"/>
     <meta property="og:description" content="Gustav Willig - AI Full-Stack Developer"/>
     <meta property="og:image" href="{% static 'image/thumbnail.png' %}">
+    <meta name="image" property="og:image" content="{% static 'image/thumbnail.png' %}">
+    <meta name="author" content="Gustav Willig - AI Full-Stack Developer">
+    <meta property="og:type" content="Gustav Willig - AI Full-Stack Developer">
     <link rel="stylesheet" href="{%static 'css/bootstrap/css/bootstrap.min.css' %}">
     <!-- Google fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,800&amp;display=swap">
     <!-- theme stylesheet-->
     {% load static %}
     <link rel="stylesheet" type="text/css" href="{%static 'css/homepage.css' %}">
+
     <!-- Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" type="image/png" href="{% static 'image/apple-touch-icon.png' %}"/>
     <link rel="shortcut icon" type="image/png" href="{% static 'image/favicon-32x32.png' %}"/>
@@ -35,7 +39,8 @@
     <!-- navbar-->
     <header class="header">
       <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container notransition"><a class="navbar-brand" href="#"><img src="{% static 'image/android-chrome-192x192.png' %}" alt="" width="45"></a>
+        <div class="container notransition"><a class="navbar-brand" href="#">
+            <img src="{% static 'image/android-chrome-192x192.png' %}" alt="" width="45"></a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
@@ -112,7 +117,7 @@
             <p class="lead text-muted "><strong>HTML/CSS</strong></p>
           </div>
           <div class="col-md-2 text-center">
-            <img src="{% static 'image/pie_chart_90.svg' %}"  alt="pie chart javascript expertise"  width="100" >
+            <img src="{% static 'image/pie_chart_80.svg' %}"  alt="pie chart javascript expertise"  width="100" >
             <p class="lead text-muted"><strong>JavaScript</strong></p>
           </div>
           <div class="col-md-2 text-center">
@@ -120,15 +125,15 @@
             <p class="lead text-muted"><strong>Python</strong></p>
           </div>
           <div class="col-md-2 text-center">
-            <img src="{% static 'image/pie_chart_90.svg' %}"  alt="pie chart data engineering expertise"  width="100" >
-            <p class="lead text-muted"><strong>Data Engineering</strong></p>
+            <img src="{% static 'image/pie_chart_75.svg' %}"  alt="pie chart react expertise"  width="100" >
+            <p class="lead text-muted"><strong>React</strong></p>
           </div>
           <div class="col-md-2 text-center">
             <img src="{% static 'image/pie_chart_90.svg' %}"  alt="pie chart deep learning"  width="100" >
             <p class="lead text-muted"><strong>Deep Learning</strong></p>
           </div>
           <div class="col-md-2 text-center">
-            <img src="{% static 'image/pie_chart_90.svg' %}"  alt="pie chart nlp"  width="100" >
+            <img src="{% static 'image/pie_chart_60.svg' %}"  alt="pie chart nlp"  width="100" >
             <p class="lead text-muted "><strong>NLP</strong></p>
           </div>
         </div>
