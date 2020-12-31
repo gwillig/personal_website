@@ -22,7 +22,7 @@ A live version can be fount under http://gustavwillig.herokuapp.com/
    4) 3.1. About this Application
    4) 3.2 Third Party Content
 
-
+![](readme_material/application.gif)
 ## 1. Getting Started
 These instructions cover the setup and installation on your local machine for developing and testing purposes.
 
